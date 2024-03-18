@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/edy/.ohos/config/default_SecuritiesKeyboard_ZGqLvi7GCwW2e9ORUDk1PEoyTWnAKNdqHB_5wNylaE0=.cer",
+          "storePassword": "0000001A5EEDB4EF7B2EF6D517ED3505EEB59B7CD9CBD2AD6E5CC70A9B53B4AD70A24BB7107E7BC13163",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A96219A66A5463720F4B73E02EAFF90921197CD3DAC1C9EC15E4E000C14D12C8CBB6593B4B5E4",
+          "profile": "/Users/edy/.ohos/config/default_SecuritiesKeyboard_ZGqLvi7GCwW2e9ORUDk1PEoyTWnAKNdqHB_5wNylaE0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/edy/.ohos/config/default_SecuritiesKeyboard_ZGqLvi7GCwW2e9ORUDk1PEoyTWnAKNdqHB_5wNylaE0=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

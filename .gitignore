@@ -1,0 +1,4 @@
+.idea/
+./oh_modules/*
+/entry/.preview/
+/entry/build/
