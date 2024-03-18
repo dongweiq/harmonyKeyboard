@@ -1,0 +1,63 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULE_CONFIG": [
+      {
+        "MODULE_NAME": "entry",
+        "API_TYPE": "stageMode",
+        "TARGETS": [
+          {
+            "name": "default"
+          }
+        ],
+        "DEVICE_TYPES": [
+          "phone",
+          "tablet",
+          "2in1"
+        ]
+      }
+    ]
+  },
+  "totalTime": 4681875667,
+  "moduleNum": 1,
+  "taskTime": {
+    "compileArkTS": 0,
+    "buildArkTS": 0,
+    "compileJS": 0,
+    "buildJS": 0,
+    "compileResource": 46000958,
+    "packageHap": 0,
+    "signHap": 0
+  },
+  "isIncremental": true,
+  "hasIncremental": true,
+  "isParallel": true,
+  "IS_DAEMON": true,
+  "LOG_LEVEL": "INFO",
+  "IS_HVIGORFILE_TYPE_CHECK": false,
+  "PRODUCTS": [
+    {
+      "NAME": "default",
+      "COMPILE_SDK_VERSION": "4.1.0(11)",
+      "COMPATIBLE_SDK_VERSION": "4.1.0(11)",
+      "RUNTIMEOS": "HarmonyOS"
+    }
+  ],
+  "MODULES": [
+    {
+      "TARGETS": [
+        {
+          "NAME": "default"
+        }
+      ]
+    }
+  ],
+  "BUILD_MODE_SET": [
+    {
+      "NAME": "debug"
+    },
+    {
+      "NAME": "release"
+    }
+  ],
+  "aotCompileMode": "type"
+}

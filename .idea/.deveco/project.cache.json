@@ -1,0 +1,16 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.example.securitiesKeyboard",
+		"SELECT_BUILD_MODE":"",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/build/outputs/default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"crossplatform.projectType":"",
+		"project.ide.version":"4.1.3.500",
+		"current.select.product":"default",
+		"current.select.buildMode":""
+	}
+}

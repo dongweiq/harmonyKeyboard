@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../.." />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-system-image(base)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../../../harmonyos-sdk-4.1.3.500/HarmonyOS-NEXT-DP1/base/ets/api" />
+          <root url="file://$MODULE_DIR$/../../../../../harmonyos-sdk-4.1.3.500/HarmonyOS-NEXT-DP1/base/ets/component" />
+          <root url="file://$MODULE_DIR$/../../../../../harmonyos-sdk-4.1.3.500/HarmonyOS-NEXT-DP1/base/ets/kits" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-system-image(hms)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../../../harmonyos-sdk-4.1.3.500/HarmonyOS-NEXT-DP1/hms/ets/api" />
+          <root url="file://$MODULE_DIR$/../../../../../harmonyos-sdk-4.1.3.500/HarmonyOS-NEXT-DP1/hms/ets/kits" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

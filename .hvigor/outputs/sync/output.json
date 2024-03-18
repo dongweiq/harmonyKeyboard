@@ -1,0 +1,39 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/build",
+    "BUNDLE_NAME": "com.example.securitiesKeyboard",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/edy/Documents/honghe/others/harmony-demo/SecuritiesKeyboard/build/outputs/default"
+    }
+  },
+  "version": 1
+}
