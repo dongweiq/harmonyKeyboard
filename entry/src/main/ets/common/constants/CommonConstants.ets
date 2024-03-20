@@ -61,7 +61,7 @@ export default class CommonConstants {
   /**
    * Switch to English keyboard.
    */
-  static readonly TEXT_ENGLISH: string = 'ABC';
+  static readonly TEXT_ENGLISH: string = '中/英';
 
   /**
    * Add text box content.

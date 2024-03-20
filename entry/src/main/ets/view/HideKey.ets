@@ -17,7 +17,7 @@ import CommonConstants from '../common/constants/CommonConstants';
 import KeyEventListen from '../viewmodel/KeyEventListen';
 
 @Component
-export struct DeleteKey {
+export struct HideKey {
   @Consume searchContent: string;
   private color: ResourceStr = $r('app.color.font_background_white');
 
@@ -33,7 +33,7 @@ export struct DeleteKey {
 
   build() {
     Stack() {
-      Image($r('app.media.kds_keyboard_key_delete_icon'))
+      Image($r('app.media.kds_keyboard_hide_bt'))
         .width($r('app.float.delete_image_size'))
         .aspectRatio(CommonConstants.IMAGE_ASPECT_RATIO)
     }

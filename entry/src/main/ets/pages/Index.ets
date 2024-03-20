@@ -15,7 +15,7 @@
 
 import CommonConstants from '../common/constants/CommonConstants';
 import KeyEventListen from '../viewmodel/KeyEventListen';
-import { NumberKeyboard } from '../view/NumberKeyboard';
+import { kds_stock_keyboard_number_for_switch_system } from '../view/kds_stock_keyboard_number_for_switch_system';
 import { EnglishKeyboard } from '../view/EnglishKeyboard';
 
 @Entry
@@ -47,7 +47,7 @@ struct Index {
       .backgroundColor($r('app.color.keyboard_background_color'))
 
       if (this.menuType === CommonConstants.KEYBOARD_TYPE_DIGIT) {
-        NumberKeyboard()
+        kds_stock_keyboard_number_for_switch_system()
       } else {
         EnglishKeyboard()
       }

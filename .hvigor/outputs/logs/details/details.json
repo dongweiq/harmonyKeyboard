@@ -17,16 +17,16 @@
       }
     ]
   },
-  "totalTime": 4681875667,
+  "totalTime": 1420324584,
   "moduleNum": 1,
   "taskTime": {
     "compileArkTS": 0,
     "buildArkTS": 0,
     "compileJS": 0,
-    "buildJS": 0,
-    "compileResource": 46000958,
+    "buildJS": 813292,
+    "compileResource": 0,
     "packageHap": 0,
-    "signHap": 0
+    "signHap": 1233529041
   },
   "isIncremental": true,
   "hasIncremental": true,
@@ -58,6 +58,5 @@
     {
       "NAME": "release"
     }
-  ],
-  "aotCompileMode": "type"
+  ]
 }

@@ -37,11 +37,11 @@ export struct NumberKeyItem {
 
   build() {
     Text(this.keyValue?.content)
-      .fontSize($r('app.float.comm_text_size'))
+      .fontSize(20)
       .fontColor(this.textColor)
       .textAlign(TextAlign.Center)
-      .width(CommonConstants.PERCENTAGE_MAX)
-      .height(CommonConstants.PERCENTAGE_MAX)
+      .width('99%')
+      .height('99%')
       .onClick(() => {
         if (this.keyValue?.content === CommonConstants.TEXT_ENGLISH) {
           this.menuType = CommonConstants.KEYBOARD_TYPE_ENGLISH;
